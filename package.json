@@ -1,0 +1,43 @@
+{
+  "name": "paypay.js",
+  "version": "0.1.0",
+  "description": "Unofficial, modern Node.js SDK for the PayPay Open Payment API (OPA) — Promise/async-await based, zero dependencies.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "paypay-cli": "bin/paypay-cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build:types": "tsc",
+    "prepublishOnly": "npm test && npm run build:types"
+  },
+  "keywords": [
+    "paypay",
+    "payment",
+    "opa",
+    "qrcode",
+    "sdk",
+    "japan"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/paypay.js.git"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src",
+    "bin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
