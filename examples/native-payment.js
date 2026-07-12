@@ -12,7 +12,7 @@ async function main() {
     apiKey: process.env.PAYPAY_API_KEY,
     apiSecret: process.env.PAYPAY_API_SECRET,
     merchantId: process.env.PAYPAY_MERCHANT_ID,
-    env: 'STAGING',
+    env: 'STAGING',//user data
   });
 
   const result = await paypay.payment.create({
