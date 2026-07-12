@@ -252,7 +252,7 @@ npm run build:types
 ## Publishing to GitHub / npm
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/paypay.js.git
+git remote add origin https://github.com/gvhrerf/paypay.js.git
 git branch -M main
 git push -u origin main
 
